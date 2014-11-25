@@ -1,0 +1,112 @@
+\documentclass{resume}
+
+\renewcommand{\categoryfont}{\sc}
+
+%
+% set the space used for category titles here:
+% use the same value for oddsidemargin and marginparwidth [the latter 
+% 		will be reset to account for marginparsep]
+% 
+\setlength{\oddsidemargin}{1in}
+\setlength{\marginparwidth}{1in}
+% 
+% calculate other dimensions [textwidth and evensidemargin] 
+% in function of oddsidemargin and marginparwidth: 
+% would be nicer to put in the class file...
+%
+\addtolength{\marginparwidth}{-\marginparsep}
+ \setlength{\evensidemargin}{\oddsidemargin}
+ \setlength{\textwidth}{\paperwidth}
+ \addtolength{\textwidth}{-2in}
+ \addtolength{\textwidth}{-2\oddsidemargin}
+ \addtolength{\textwidth}{\marginparwidth}
+ \addtolength{\textwidth}{\marginparsep}
+%
+%
+\setlength{\topmargin}{-0.5in}
+%
+%
+\renewcommand{\labelcitem}{$\diamond$}
+\renewcommand{\labelitemi}{$\cdot$}
+\newcommand{\first}{$1^{\mbox{\scriptsize st}}$\ }
+\newcommand{\second}{$2^{\mbox{\scriptsize nd}}$\ }
+\newcommand{\third}{$3^{\mbox{\scriptsize rd}}$\ }
+
+\author{Babin Babu}
+% ------ Address --------------------------------------------------------
+
+\address{Software Engineer Trainee\\
+  Nuevalgo Solutions\\
+  Infopark, Koratty\\
+  {\em Ph:} (+91)-94-4679-6340}{
+  {\em email:} \mbox{\small\tt babinbabu007@gmail.com}\\
+  {\em web:} \mbox{\small\tt babinbabu.com}\\
+  {\em github:} \mbox{\small\tt github.com/babinbabu}\\
+  {\em Online Resume:} \mbox{\small\tt tagprof.com/babinbabu}\\
+  {\em linkedin:} \mbox{\small\tt linkedin.com/pub/babin-babu/64/136/980}}
+
+\begin{document}
+\maketitle
+
+% ------- Education ---------------------------------------------------
+
+\begin{category}{Education}
+  \citem{MCA } \hfill \textbf{2010 -- 2013}
+  \citemnobullet Mahathma Ganghi University ,Amal Jyothi Engineering College, Kerala.
+  \citem{BSc Mathematics } \hfill \textbf{2007 -- 2010}
+  \citemnobullet CMS College Kottayam, Kerala.
+  \citem{+2 in Computer Science } \hfill \textbf{2005 -- 2007}
+  \citemnobullet St Joseph's HSS Paigottoor, Kerala.
+  \citem{SSLC } \hfill \textbf{2005 }
+  \citemnobullet IMHS Kaloor, Kerala.
+\end{category}
+
+% --------- Research ----------------------------------------------------
+
+
+
+\begin{category}{Technical Skills}
+  \citembullet {\it Operating Systems}: GNU/Linux, Mac OSX, Microsoft Windows.
+  \citembullet {\it Programming Languages}: PHP, JavaScript, HTML5, CSS3,
+  \citembullet {\it Frameworks}: Opencart, jQuery.
+  \citembullet {\it Databases}: MySQL,oracle
+  \citembullet {\it Version Control}: Git.
+\end{category}
+
+% -------- Work experience --------------------------------------------
+
+\begin{category}{Work \\experience}
+  \citem{Nuevalgo Solutions, Infopark Thrissur}
+  \citemnobullet \textbf{Software Engineer Trainee} \hfill \textbf{March 2014 -- present}
+  \citemnobullet Nuevalgo is a product and services company who delivers custom software for desktop, web, mobile and cloud-based environments.
+  \begin{itemize}
+  \item \textbf{Viastore} {\em June 2014 - September 2014}: Viastore is an e-commerce app which uses {\em Php(opencart),  MySQL}. \textbf{Role}: {\em Developer}.  
+  \item \textbf{Sofcon} {\em July 2014 - July 2014}: Sofcon is cms website which uses {\em Wordpress,MySQL}. \textbf{Role}: {\em Developer}.
+  \item \textbf{Veepees} {\em October 2014 - October 2014}: Sofcon is cms website which uses {\em Wordpress,MySQL}. \textbf{Role}: {\em Developer}.
+  \end{itemize}
+  \end{category}
+
+% -------- Awards & Honours ---------------------------------------
+
+\begin{category}{Awards \&\\ Honours}
+  \citem{``Part of the event ‘Best Techies ’of AZURE’12''}, {\em national level techno-cultural-managerial Festival held at Amal Jyothi College of Engineering}. \hfill \textbf{2012}
+  \citem{Attended `` UGC-sponsored national conference on ‘Green Computing''}, {\em Marian College, Kuttikkanam}. \hfill \textbf{2011}
+  
+\end{category}
+
+
+
+
+% -------- Reference --------------------------------------------
+
+\begin{category}{Reference}
+  \citemnobullet \\
+  \begin{tabular}{ll}Fr. Rubin Thottupuram\\
+    HOD MCA, \\
+    Amal Jyothi College ofEngineering,\\
+    Kanjirapally , Kerala\\
+    Email: \mbox{\small\tt thottupuram@gmail.com}\\
+    Ph: (+91)-94-4787-0275
+  \end{tabular}
+\end{category}
+\end{document}
